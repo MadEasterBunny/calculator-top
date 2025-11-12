@@ -1,0 +1,49 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.container {
+    max-width: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #332f2f;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.container div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container div.display {
+    font-size: 25px;
+    justify-content: flex-end;
+    background-color: #ceeded;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.container div.clearDelContainer {
+    justify-content: flex-end;
+    gap: 17px;
+}
+
+.operator {
+    background-color: #fbb229;
+}
